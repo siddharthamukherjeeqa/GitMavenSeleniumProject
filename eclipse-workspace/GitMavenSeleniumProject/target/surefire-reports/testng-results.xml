@@ -242,30 +242,30 @@
       <![CDATA[onFinish : after suite completes]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-08-17T18:10:10Z" name="Smoke Test" finished-at="2019-08-17T18:10:10Z" duration-ms="125">
+  <suite started-at="2019-08-17T18:15:32Z" name="Smoke Test" finished-at="2019-08-17T18:15:32Z" duration-ms="113">
     <groups>
       <group name="Sanity">
-        <method signature="SetOne.createProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@4d339552]" name="createProfile" class="com.sidmukhe.testngtest.SetOne"/>
-        <method signature="SetOne.sanitylogin()[pri:0, instance:com.sidmukhe.testngtest.SetOne@4d339552]" name="sanitylogin" class="com.sidmukhe.testngtest.SetOne"/>
-        <method signature="SetOne.sanitylogout()[pri:0, instance:com.sidmukhe.testngtest.SetOne@4d339552]" name="sanitylogout" class="com.sidmukhe.testngtest.SetOne"/>
-        <method signature="SetOne.createProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@157632c9]" name="createProfile" class="com.sidmukhe.testngtest.SetOne"/>
-        <method signature="SetOne.sanitylogin()[pri:0, instance:com.sidmukhe.testngtest.SetOne@157632c9]" name="sanitylogin" class="com.sidmukhe.testngtest.SetOne"/>
-        <method signature="SetOne.sanitylogout()[pri:0, instance:com.sidmukhe.testngtest.SetOne@157632c9]" name="sanitylogout" class="com.sidmukhe.testngtest.SetOne"/>
+        <method signature="SetOne.createProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@6591f517]" name="createProfile" class="com.sidmukhe.testngtest.SetOne"/>
+        <method signature="SetOne.sanitylogin()[pri:0, instance:com.sidmukhe.testngtest.SetOne@6591f517]" name="sanitylogin" class="com.sidmukhe.testngtest.SetOne"/>
+        <method signature="SetOne.sanitylogout()[pri:0, instance:com.sidmukhe.testngtest.SetOne@6591f517]" name="sanitylogout" class="com.sidmukhe.testngtest.SetOne"/>
+        <method signature="SetOne.createProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@55040f2f]" name="createProfile" class="com.sidmukhe.testngtest.SetOne"/>
+        <method signature="SetOne.sanitylogin()[pri:0, instance:com.sidmukhe.testngtest.SetOne@55040f2f]" name="sanitylogin" class="com.sidmukhe.testngtest.SetOne"/>
+        <method signature="SetOne.sanitylogout()[pri:0, instance:com.sidmukhe.testngtest.SetOne@55040f2f]" name="sanitylogout" class="com.sidmukhe.testngtest.SetOne"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="SetOne.createProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@4d339552]" name="createProfile" class="com.sidmukhe.testngtest.SetOne"/>
-        <method signature="SetOne.sanitylogin()[pri:0, instance:com.sidmukhe.testngtest.SetOne@4d339552]" name="sanitylogin" class="com.sidmukhe.testngtest.SetOne"/>
-        <method signature="SetOne.sanitylogout()[pri:0, instance:com.sidmukhe.testngtest.SetOne@4d339552]" name="sanitylogout" class="com.sidmukhe.testngtest.SetOne"/>
-        <method signature="SetOne.createProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@157632c9]" name="createProfile" class="com.sidmukhe.testngtest.SetOne"/>
-        <method signature="SetOne.deleteProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@157632c9]" name="deleteProfile" class="com.sidmukhe.testngtest.SetOne"/>
-        <method signature="SetOne.editProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@157632c9]" name="editProfile" class="com.sidmukhe.testngtest.SetOne"/>
-        <method signature="SetOne.sanitylogin()[pri:0, instance:com.sidmukhe.testngtest.SetOne@157632c9]" name="sanitylogin" class="com.sidmukhe.testngtest.SetOne"/>
-        <method signature="SetOne.sanitylogout()[pri:0, instance:com.sidmukhe.testngtest.SetOne@157632c9]" name="sanitylogout" class="com.sidmukhe.testngtest.SetOne"/>
+        <method signature="SetOne.createProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@6591f517]" name="createProfile" class="com.sidmukhe.testngtest.SetOne"/>
+        <method signature="SetOne.sanitylogin()[pri:0, instance:com.sidmukhe.testngtest.SetOne@6591f517]" name="sanitylogin" class="com.sidmukhe.testngtest.SetOne"/>
+        <method signature="SetOne.sanitylogout()[pri:0, instance:com.sidmukhe.testngtest.SetOne@6591f517]" name="sanitylogout" class="com.sidmukhe.testngtest.SetOne"/>
+        <method signature="SetOne.createProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@55040f2f]" name="createProfile" class="com.sidmukhe.testngtest.SetOne"/>
+        <method signature="SetOne.deleteProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@55040f2f]" name="deleteProfile" class="com.sidmukhe.testngtest.SetOne"/>
+        <method signature="SetOne.editProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@55040f2f]" name="editProfile" class="com.sidmukhe.testngtest.SetOne"/>
+        <method signature="SetOne.sanitylogin()[pri:0, instance:com.sidmukhe.testngtest.SetOne@55040f2f]" name="sanitylogin" class="com.sidmukhe.testngtest.SetOne"/>
+        <method signature="SetOne.sanitylogout()[pri:0, instance:com.sidmukhe.testngtest.SetOne@55040f2f]" name="sanitylogout" class="com.sidmukhe.testngtest.SetOne"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2019-08-17T18:10:10Z" name="Sanity/Regression TESTs" finished-at="2019-08-17T18:10:10Z" duration-ms="39">
+    <test started-at="2019-08-17T18:15:32Z" name="Sanity/Regression TESTs" finished-at="2019-08-17T18:15:32Z" duration-ms="27">
       <class name="com.sidmukhe.testngtest.SetOne">
-        <test-method signature="createProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@4d339552]" started-at="2019-08-17T23:40:10Z" name="createProfile" finished-at="2019-08-17T23:40:10Z" duration-ms="9" status="PASS">
+        <test-method signature="createProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@6591f517]" started-at="2019-08-17T23:45:32Z" name="createProfile" finished-at="2019-08-17T23:45:32Z" duration-ms="9" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[afterInvocation : org.testng.internal.TestResult, createProfile]]>
@@ -275,17 +275,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- createProfile -->
-        <test-method signature="sanitylogout()[pri:0, instance:com.sidmukhe.testngtest.SetOne@4d339552]" started-at="2019-08-17T23:40:10Z" name="sanitylogout" finished-at="2019-08-17T23:40:10Z" duration-ms="0" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[afterInvocation : org.testng.internal.TestResult, sanitylogout]]>
-            </line>
-            <line>
-              <![CDATA[onTestSuccess : sanitylogout]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- sanitylogout -->
-        <test-method signature="sanitylogin()[pri:0, instance:com.sidmukhe.testngtest.SetOne@4d339552]" started-at="2019-08-17T23:40:10Z" name="sanitylogin" finished-at="2019-08-17T23:40:10Z" duration-ms="0" status="PASS">
+        <test-method signature="sanitylogin()[pri:0, instance:com.sidmukhe.testngtest.SetOne@6591f517]" started-at="2019-08-17T23:45:32Z" name="sanitylogin" finished-at="2019-08-17T23:45:32Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[afterInvocation : org.testng.internal.TestResult, sanitylogin]]>
@@ -295,21 +285,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- sanitylogin -->
-      </class> <!-- com.sidmukhe.testngtest.SetOne -->
-    </test> <!-- Sanity/Regression TESTs -->
-    <test started-at="2019-08-17T18:10:10Z" name="TESTs" finished-at="2019-08-17T18:10:10Z" duration-ms="13">
-      <class name="com.sidmukhe.arrays.JaggedArray">
-        <test-method signature="test()[pri:0, instance:com.sidmukhe.arrays.JaggedArray@2ea6137]" started-at="2019-08-17T23:40:10Z" name="test" finished-at="2019-08-17T23:40:10Z" duration-ms="1" status="PASS">
+        <test-method signature="sanitylogout()[pri:0, instance:com.sidmukhe.testngtest.SetOne@6591f517]" started-at="2019-08-17T23:45:32Z" name="sanitylogout" finished-at="2019-08-17T23:45:32Z" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[afterInvocation : org.testng.internal.TestResult, test]]>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, sanitylogout]]>
             </line>
             <line>
-              <![CDATA[onTestSuccess : test]]>
+              <![CDATA[onTestSuccess : sanitylogout]]>
             </line>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="jaggedArray()[pri:0, instance:com.sidmukhe.arrays.JaggedArray@2ea6137]" started-at="2019-08-17T23:40:10Z" name="jaggedArray" finished-at="2019-08-17T23:40:10Z" duration-ms="0" status="PASS">
+        </test-method> <!-- sanitylogout -->
+      </class> <!-- com.sidmukhe.testngtest.SetOne -->
+    </test> <!-- Sanity/Regression TESTs -->
+    <test started-at="2019-08-17T18:15:32Z" name="TESTs" finished-at="2019-08-17T18:15:32Z" duration-ms="7">
+      <class name="com.sidmukhe.arrays.JaggedArray">
+        <test-method signature="jaggedArray()[pri:0, instance:com.sidmukhe.arrays.JaggedArray@2ea6137]" started-at="2019-08-17T23:45:32Z" name="jaggedArray" finished-at="2019-08-17T23:45:32Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[afterInvocation : org.testng.internal.TestResult, jaggedArray]]>
@@ -319,9 +309,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- jaggedArray -->
+        <test-method signature="test()[pri:0, instance:com.sidmukhe.arrays.JaggedArray@2ea6137]" started-at="2019-08-17T23:45:32Z" name="test" finished-at="2019-08-17T23:45:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, test]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
       </class> <!-- com.sidmukhe.arrays.JaggedArray -->
       <class name="com.sidmukhe.arrays.LargestNumberfromArray">
-        <test-method signature="test()[pri:0, instance:com.sidmukhe.arrays.LargestNumberfromArray@4c40b76e]" started-at="2019-08-17T23:40:10Z" name="test" finished-at="2019-08-17T23:40:10Z" duration-ms="2" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.sidmukhe.arrays.LargestNumberfromArray@41ee392b]" started-at="2019-08-17T23:45:32Z" name="test" finished-at="2019-08-17T23:45:32Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[afterInvocation : org.testng.internal.TestResult, test]]>
@@ -333,7 +333,7 @@
         </test-method> <!-- test -->
       </class> <!-- com.sidmukhe.arrays.LargestNumberfromArray -->
       <class name="com.sidmukhe.arrays.SortnReverseArray">
-        <test-method signature="test()[pri:0, instance:com.sidmukhe.arrays.SortnReverseArray@2d2e5f00]" started-at="2019-08-17T23:40:10Z" name="test" finished-at="2019-08-17T23:40:10Z" duration-ms="2" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.sidmukhe.arrays.SortnReverseArray@1e67a849]" started-at="2019-08-17T23:45:32Z" name="test" finished-at="2019-08-17T23:45:32Z" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[afterInvocation : org.testng.internal.TestResult, test]]>
@@ -345,7 +345,7 @@
         </test-method> <!-- test -->
       </class> <!-- com.sidmukhe.arrays.SortnReverseArray -->
       <class name="com.sidmukhe.arrays.MissingElementsArray">
-        <test-method signature="test()[pri:0, instance:com.sidmukhe.arrays.MissingElementsArray@8b96fde]" started-at="2019-08-17T23:40:10Z" name="test" finished-at="2019-08-17T23:40:10Z" duration-ms="2" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.sidmukhe.arrays.MissingElementsArray@4c40b76e]" started-at="2019-08-17T23:45:32Z" name="test" finished-at="2019-08-17T23:45:32Z" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[afterInvocation : org.testng.internal.TestResult, test]]>
@@ -357,19 +357,9 @@
         </test-method> <!-- test -->
       </class> <!-- com.sidmukhe.arrays.MissingElementsArray -->
     </test> <!-- TESTs -->
-    <test started-at="2019-08-17T18:10:10Z" name="Run Classes" finished-at="2019-08-17T18:10:10Z" duration-ms="2">
+    <test started-at="2019-08-17T18:15:32Z" name="Run Classes" finished-at="2019-08-17T18:15:32Z" duration-ms="3">
       <class name="com.sidmukhe.testngtest.SetOne">
-        <test-method signature="deleteProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@157632c9]" started-at="2019-08-17T23:40:10Z" name="deleteProfile" finished-at="2019-08-17T23:40:10Z" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[afterInvocation : org.testng.internal.TestResult, deleteProfile]]>
-            </line>
-            <line>
-              <![CDATA[onTestSuccess : deleteProfile]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- deleteProfile -->
-        <test-method signature="createProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@157632c9]" started-at="2019-08-17T23:40:10Z" name="createProfile" finished-at="2019-08-17T23:40:10Z" duration-ms="0" status="PASS">
+        <test-method signature="createProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@55040f2f]" started-at="2019-08-17T23:45:32Z" name="createProfile" finished-at="2019-08-17T23:45:32Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[afterInvocation : org.testng.internal.TestResult, createProfile]]>
@@ -379,17 +369,17 @@
             </line>
           </reporter-output>
         </test-method> <!-- createProfile -->
-        <test-method signature="editProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@157632c9]" started-at="2019-08-17T23:40:10Z" name="editProfile" finished-at="2019-08-17T23:40:10Z" duration-ms="0" status="PASS">
+        <test-method signature="deleteProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@55040f2f]" started-at="2019-08-17T23:45:32Z" name="deleteProfile" finished-at="2019-08-17T23:45:32Z" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[afterInvocation : org.testng.internal.TestResult, editProfile]]>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, deleteProfile]]>
             </line>
             <line>
-              <![CDATA[onTestSuccess : editProfile]]>
+              <![CDATA[onTestSuccess : deleteProfile]]>
             </line>
           </reporter-output>
-        </test-method> <!-- editProfile -->
-        <test-method signature="sanitylogin()[pri:0, instance:com.sidmukhe.testngtest.SetOne@157632c9]" started-at="2019-08-17T23:40:10Z" name="sanitylogin" finished-at="2019-08-17T23:40:10Z" duration-ms="1" status="PASS">
+        </test-method> <!-- deleteProfile -->
+        <test-method signature="sanitylogin()[pri:0, instance:com.sidmukhe.testngtest.SetOne@55040f2f]" started-at="2019-08-17T23:45:32Z" name="sanitylogin" finished-at="2019-08-17T23:45:32Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[afterInvocation : org.testng.internal.TestResult, sanitylogin]]>
@@ -399,7 +389,17 @@
             </line>
           </reporter-output>
         </test-method> <!-- sanitylogin -->
-        <test-method signature="sanitylogout()[pri:0, instance:com.sidmukhe.testngtest.SetOne@157632c9]" started-at="2019-08-17T23:40:10Z" name="sanitylogout" finished-at="2019-08-17T23:40:10Z" duration-ms="0" status="PASS">
+        <test-method signature="editProfile()[pri:0, instance:com.sidmukhe.testngtest.SetOne@55040f2f]" started-at="2019-08-17T23:45:32Z" name="editProfile" finished-at="2019-08-17T23:45:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, editProfile]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : editProfile]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editProfile -->
+        <test-method signature="sanitylogout()[pri:0, instance:com.sidmukhe.testngtest.SetOne@55040f2f]" started-at="2019-08-17T23:45:32Z" name="sanitylogout" finished-at="2019-08-17T23:45:32Z" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[afterInvocation : org.testng.internal.TestResult, sanitylogout]]>
@@ -411,9 +411,9 @@
         </test-method> <!-- sanitylogout -->
       </class> <!-- com.sidmukhe.testngtest.SetOne -->
     </test> <!-- Run Classes -->
-    <test started-at="2019-08-17T18:10:10Z" name="MethodsTest" finished-at="2019-08-17T18:10:10Z" duration-ms="1">
+    <test started-at="2019-08-17T18:15:32Z" name="MethodsTest" finished-at="2019-08-17T18:15:32Z" duration-ms="1">
       <class name="com.sidmukhe.testngtest.SetThree">
-        <test-method signature="fact()[pri:0, instance:com.sidmukhe.testngtest.SetThree@525f1e4e]" started-at="2019-08-17T23:40:10Z" name="fact" finished-at="2019-08-17T23:40:10Z" duration-ms="0" status="PASS">
+        <test-method signature="fact()[pri:0, instance:com.sidmukhe.testngtest.SetThree@52aa2946]" started-at="2019-08-17T23:45:32Z" name="fact" finished-at="2019-08-17T23:45:32Z" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[afterInvocation : org.testng.internal.TestResult, fact]]>
