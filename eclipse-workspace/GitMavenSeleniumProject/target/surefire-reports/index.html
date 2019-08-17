@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Smoke_Test" class="navigator-link">
+              <span class="suite-name border-passed">Smoke Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Smoke_Test" class="navigator-link ">
+                    <span>C:\Users\sidmukhe\eclipse-workspace\GitMavenSeleniumProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Smoke_Test" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Smoke_Test" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Smoke_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Smoke_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Smoke_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Smoke_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Smoke_Test" class="hide-methods passed suite-Smoke_Test"> (hide)</a> <!-- hide-methods passed suite-Smoke_Test -->
+                      <a href="#" panel-name="suite-Smoke_Test" class="show-methods passed suite-Smoke_Test"> (show)</a> <!-- show-methods passed suite-Smoke_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-Smoke_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_Test" title="com.sidmukhe.testngtest.SetOne" class="method navigator-link" hash-for-method="createProfile">createProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_Test" title="com.sidmukhe.testngtest.SetOne" class="method navigator-link" hash-for-method="createProfile">createProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_Test" title="com.sidmukhe.testngtest.SetOne" class="method navigator-link" hash-for-method="deleteProfile">deleteProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_Test" title="com.sidmukhe.testngtest.SetOne" class="method navigator-link" hash-for-method="editProfile">editProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_Test" title="com.sidmukhe.testngtest.SetThree" class="method navigator-link" hash-for-method="fact">fact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_Test" title="com.sidmukhe.testngtest.SetOne" class="method navigator-link" hash-for-method="sanitylogin">sanitylogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_Test" title="com.sidmukhe.testngtest.SetOne" class="method navigator-link" hash-for-method="sanitylogin">sanitylogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_Test" title="com.sidmukhe.testngtest.SetOne" class="method navigator-link" hash-for-method="sanitylogout">sanitylogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke_Test" title="com.sidmukhe.testngtest.SetOne" class="method navigator-link" hash-for-method="sanitylogout">sanitylogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Smoke_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Smoke_Test" class="panel Smoke_Test">
+          <div class="suite-Smoke_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sidmukhe.testngtest.SetOne</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createProfile">
+                  </a> <!-- createProfile -->
+                  <span class="method-name">createProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createProfile">
+                  </a> <!-- createProfile -->
+                  <span class="method-name">createProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteProfile">
+                  </a> <!-- deleteProfile -->
+                  <span class="method-name">deleteProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProfile">
+                  </a> <!-- editProfile -->
+                  <span class="method-name">editProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sanitylogin">
+                  </a> <!-- sanitylogin -->
+                  <span class="method-name">sanitylogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sanitylogin">
+                  </a> <!-- sanitylogin -->
+                  <span class="method-name">sanitylogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sanitylogout">
+                  </a> <!-- sanitylogout -->
+                  <span class="method-name">sanitylogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sanitylogout">
+                  </a> <!-- sanitylogout -->
+                  <span class="method-name">sanitylogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke_Test-class-passed -->
+          <div class="suite-Smoke_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sidmukhe.testngtest.SetThree</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fact">
+                  </a> <!-- fact -->
+                  <span class="method-name">fact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke_Test-class-passed -->
+        </div> <!-- panel Smoke_Test -->
+        <div panel-name="test-xml-Smoke_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sidmukhe\eclipse-workspace\GitMavenSeleniumProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Smoke Test&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listnerPackage.AnnotationTransformer&quot;/&gt;
+    &lt;listener class-name=&quot;listnerPackage.CustomizedCustomListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Sanity/Regression TESTs&quot;&gt;
+    &lt;groups&gt;
+      &lt;define name=&quot;RegressionSUITE&quot;&gt;
+        &lt;include name=&quot;Regression&quot;/&gt;
+      &lt;/define&gt; &lt;!-- RegressionSUITE --&gt;
+      &lt;define name=&quot;SanitySUITE&quot;&gt;
+        &lt;include name=&quot;Sanity&quot;/&gt;
+      &lt;/define&gt; &lt;!-- SanitySUITE --&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;SanitySUITE&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.sidmukhe.testngtest&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sidmukhe.testngtest.SetFour&quot;/&gt;
+      &lt;class name=&quot;com.sidmukhe.testngtest.SetOne&quot;/&gt;
+      &lt;class name=&quot;com.sidmukhe.testngtest.SetThree&quot;/&gt;
+      &lt;class name=&quot;com.sidmukhe.testngtest.SetTwo&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sanity/Regression TESTs --&gt;
+  &lt;test name=&quot;Run Classes&quot;&gt;
+    &lt;groups&gt;
+      &lt;define name=&quot;Sanity&quot;&gt;
+        &lt;include name=&quot;Sanity&quot;/&gt;
+      &lt;/define&gt; &lt;!-- Sanity --&gt;
+      &lt;define name=&quot;Regression&quot;&gt;
+        &lt;include name=&quot;Regression&quot;/&gt;
+      &lt;/define&gt; &lt;!-- Regression --&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Regression&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sidmukhe.testngtest.SetOne&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Run Classes --&gt;
+  &lt;test name=&quot;MethodsTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sidmukhe.testngtest.SetThree&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;fact&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.sidmukhe.testngtest.SetThree --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MethodsTest --&gt;
+&lt;/suite&gt; &lt;!-- Smoke Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Smoke_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Smoke Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Sanity/Regression TESTs (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Run Classes (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MethodsTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Smoke_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Smoke Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">createProfile</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">deleteProfile</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">editProfile</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sanitylogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sanitylogout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">createProfile</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sanitylogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sanitylogout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Smoke_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Smoke Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Smoke_Test');
+function tableData_Smoke_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createProfile')
+data.setCell(0, 2, 'com.sidmukhe.testngtest.SetOne')
+data.setCell(0, 3, 9);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'sanitylogin')
+data.setCell(1, 2, 'com.sidmukhe.testngtest.SetOne')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'deleteProfile')
+data.setCell(2, 2, 'com.sidmukhe.testngtest.SetOne')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'fact')
+data.setCell(3, 2, 'com.sidmukhe.testngtest.SetThree')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'sanitylogout')
+data.setCell(4, 2, 'com.sidmukhe.testngtest.SetOne')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'editProfile')
+data.setCell(5, 2, 'com.sidmukhe.testngtest.SetOne')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createProfile')
+data.setCell(6, 2, 'com.sidmukhe.testngtest.SetOne')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'sanitylogin')
+data.setCell(7, 2, 'com.sidmukhe.testngtest.SetOne')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'sanitylogout')
+data.setCell(8, 2, 'com.sidmukhe.testngtest.SetOne')
+data.setCell(8, 3, 0);
+window.suiteTableData['Smoke_Test']= { tableData: data, tableDiv: 'times-div-Smoke_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 ms</span>
+              <div id="times-div-Smoke_Test">
+              </div> <!-- times-div-Smoke_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Smoke_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Smoke Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sanitylogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">afterInvocation : org.testng.internal.TestResult, sanitylogin</span>
+                <span class="reporter-method-output">onTestSuccess : sanitylogin</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sanitylogout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">afterInvocation : org.testng.internal.TestResult, sanitylogout</span>
+                <span class="reporter-method-output">onTestSuccess : sanitylogout</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createProfile</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">afterInvocation : org.testng.internal.TestResult, createProfile</span>
+                <span class="reporter-method-output">onTestSuccess : createProfile</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editProfile</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">afterInvocation : org.testng.internal.TestResult, editProfile</span>
+                <span class="reporter-method-output">onTestSuccess : editProfile</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">deleteProfile</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">afterInvocation : org.testng.internal.TestResult, deleteProfile</span>
+                <span class="reporter-method-output">onTestSuccess : deleteProfile</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createProfile</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">afterInvocation : org.testng.internal.TestResult, createProfile</span>
+                <span class="reporter-method-output">onTestSuccess : createProfile</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sanitylogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">afterInvocation : org.testng.internal.TestResult, sanitylogin</span>
+                <span class="reporter-method-output">onTestSuccess : sanitylogin</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sanitylogout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">afterInvocation : org.testng.internal.TestResult, sanitylogout</span>
+                <span class="reporter-method-output">onTestSuccess : sanitylogout</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">fact</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">afterInvocation : org.testng.internal.TestResult, fact</span>
+                <span class="reporter-method-output">onTestSuccess : fact</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Smoke_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">11 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.sidmukhe.testngtest.SetFour</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Three</span>
+                <br/>
+                <span class="ignored-method-name">failed</span>
+                <br/>
+                <span class="ignored-method-name">pass</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.sidmukhe.testngtest.SetOne</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">editProfile</span>
+                <br/>
+                <span class="ignored-method-name">deleteProfile</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.sidmukhe.testngtest.SetThree</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fact_2</span>
+                <br/>
+                <span class="ignored-method-name">fact_2</span>
+                <br/>
+                <span class="ignored-method-name">fact</span>
+                <br/>
+                <span class="ignored-method-name">fact_3</span>
+                <br/>
+                <span class="ignored-method-name">fact_3</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.sidmukhe.testngtest.SetTwo</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Smoke_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sidmukhe.testngtest.SetOne</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createProfile</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sanitylogin</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sanitylogout</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createProfile</span>
+                <span class="method-start">61 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteProfile</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editProfile</span>
+                <span class="method-start">64 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sanitylogin</span>
+                <span class="method-start">65 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sanitylogout</span>
+                <span class="method-start">66 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sidmukhe.testngtest.SetThree</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">fact</span>
+                <span class="method-start">76 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
