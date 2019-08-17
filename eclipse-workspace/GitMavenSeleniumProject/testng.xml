@@ -21,6 +21,11 @@
 			<package name ="com.sidmukhe.testngtest"/>
 		</packages>
 	</test>
+	<test name="TESTs">
+		<packages>
+			<package name ="com.sidmukhe.arrays"/>
+		</packages>
+	</test>
 	<test name="Run Classes">
 	<groups>
 		<define name="Sanity">			
