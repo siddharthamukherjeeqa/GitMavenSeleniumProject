@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test">
+	<listeners>
+        <listener class-name="listnerPackage.AnnotationTransformer"/>
+        <listener class-name="listnerPackage.CustomizedCustomListener"/>
+    </listeners>
+       
+    <test name="Sanity/Regression TESTs">
+	    <groups>
+	    	<define name="SanitySUITE">
+	    		<include name="Sanity"></include>
+	    	</define>
+	    	<define name="RegressionSUITE">
+	    		<include name="Regression"></include>
+	    	</define>
+	    	<run>
+				<include name ="SanitySUITE"></include>
+			</run>
+	    </groups>
+		<packages>
+			<package name ="com.sidmukhe.testngtest"/>
+		</packages>
+	</test>
+	<test name="Run Classes">
+	<groups>
+		<define name="Sanity">			
+			<include name="Sanity"></include>
+		</define>
+		<define name="Regression">
+			<include name="Regression"></include>
+		</define>
+		<run>
+			<include name="Regression"></include>
+		</run>
+	</groups>
+	<classes>
+		<class name="com.sidmukhe.testngtest.SetOne"></class>
+	</classes>
+	</test>
+	<test name="MethodsTest">
+		<classes>
+			<class name="com.sidmukhe.testngtest.SetThree">
+				<methods>
+					<include name="fact"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
