@@ -11,7 +11,7 @@
   <artifactId>GitMavenSeleniumProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>maventest</name>
+  <name>GitMavenSeleniumProject</name>
   <!-- FIXME change it to the project's website -->
   <description>This is a selenium Maven Test Project</description>
   <url>http://www.example.com</url>
